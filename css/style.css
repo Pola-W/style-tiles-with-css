@@ -179,10 +179,8 @@ button {
   letter-spacing: 1px;
   color: white;
   text-transform: uppercase;
-  text-shadow: 0px -1px 0px #0374a0;
   transition: all 0.2s ease;
   cursor: pointer;
-  margin: 0 1rem 1rem 0;
 }
 
 .secondary-button {
@@ -201,20 +199,21 @@ button:focus-within {
 }
 
 .h1-sample {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 .h2-sample {
   font-family: var(--secondary-font);
   font-style: italic;
-  font-size: 1.25rem;
+  font-size: 1.7rem;
 }
 
 p.typography-sample {
   font-family: var(--secondary-font);
-  line-height: 1.5;
+  line-height: 1.4;
   max-width: 960px;
+  font-size: 1.25rem;
 }
 
 strong {
@@ -231,23 +230,15 @@ a {
   font-weight: bold;
   text-decoration: none;
   transition: all 0.2s;
+  font-size: 1.35rem;
 }
 
 p[class*="font-details-"] {
   margin-top: 0.5rem;
   margin-bottom: calc(2 * var(--white-space));
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-family: var(--secondary-font);
   color: white;
-}
-
-.adjectives ul {
-  font-size: 2rem;
-  opacity: 0.5;
-}
-
-.adjectives ul {
-  flex-direction: column;
 }
 
 footer {
@@ -272,8 +263,3 @@ footer {
   }
 }
 
-@media (min-width: 900px) {
-  .adjectives ul {
-    flex-direction: row;
-  }
-}
