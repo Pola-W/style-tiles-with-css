@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-/* THIS IS ALL meant for editing. You might want to do it differently, 
-name the variables differently, 
-use the fonts in other ways in the font hierarchy etc. */
-
-/* change these */
 :root {
   
   --link-color: #db60b2;
@@ -27,14 +22,14 @@ use the fonts in other ways in the font hierarchy etc. */
 }
 
 button {
-  transition: all 3s;
+  transition: all 2s;
 }
 a {
   transition: all 3s;
 }
 button:hover {
   background-color: var(--link-hover-color);
-  transform: scale(3) rotate(40deg);
+  transform: scale(1.1);
 }
 
 button:active {
@@ -43,7 +38,7 @@ button:active {
 
 a:hover {
   color: var(--link-hover-color);
-  font-size: 4rem;
+  font-size: 2rem;
 }
 html {
   font-size: 100%;
